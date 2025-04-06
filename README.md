@@ -35,7 +35,7 @@ This project presents an AI-based real-time posture correction system for conven
 - **Thresholds**: Criteria derived from professional deadlift videos, sports research, and trainer validation.
 - **Performance**: Runs at **24–30 FPS** on a 13th Gen Intel i7-1355U CPU.
 
-## Prposed System
+## Proposed System
 The system successfully:
 - Maintained tracking accuracy in varied environments (lighting conditions, complex backgrounds)
 - Detected specific joint errors across all stages of the deadlift
@@ -47,10 +47,14 @@ The system successfully:
   ![Figure4(Bottom Left)](https://github.com/user-attachments/assets/4d312e04-770f-4681-b8d2-c4f8c2516a53)
 *Example of system*
 
-  ## Future Work
+## Future Work
 1. **Occlusion Handling**: Predictive modeling for obscured keypoints.  
 2. **Camera Alignment Tolerance**: Rotation matrices to compensate for misalignment.  
 3. **Personalization**: Dynamic thresholds for body types/weight plates.  
 4. **Feedback Optimization**: Prioritized audio delivery for simultaneous errors.
+
+## References
+- MediaPipe BlazePose: [arXiv:2006.10204](https://arxiv.org/abs/2006.10204)  
+- Professional deadlift videos on Youtube Channel: Renshaw's Personal Training, Swequity, FITBODY with Julie Lohre, Central Athlete, OPEX Fitness, National Academy of Sports Medicine (NASM), Larry Wheels
 
 *Developed as part of agile research at the National Institute of Development Administration (NIDA), Thailand.*
